@@ -41,3 +41,4 @@ jobs:
         DOWNSTREAM_BRANCH: main
         TZ: Asia/Shanghai
       run: git push origin $DOWNSTREAM_BRANCH --allow-unrelated-histories
+           git push -u origin master
