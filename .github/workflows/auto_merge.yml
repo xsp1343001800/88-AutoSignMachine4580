@@ -20,9 +20,9 @@ jobs:
         token: ${{ secrets.TOKEN }}
 
     - name: Set git identity
-#      run : |
-#        git config --global user.email "1343001800+github-actions[bot]@users.noreply.github.com"
-#        git config --global user.name "github-actions[bot]"
+      run : |
+        git config --global user.email "xsp1343001800@qq.com"
+        git config --global user.name "xsp1343001800"
     - name: Load upstream commits
       run: |
         git pull https://github.com/xsp1343001800/88-AutoSignMachine3040.git --log --no-commit
